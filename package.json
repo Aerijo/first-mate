@@ -1,5 +1,5 @@
 {
-  "name": "first-mate",
+  "name": "first-mate-prebuilt",
   "version": "7.4.1",
   "description": "TextMate helpers",
   "main": "./lib/first-mate.js",
@@ -10,19 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/first-mate"
+    "url": "https://github.com/Aerijo/first-mate-prebuilt"
   },
   "bugs": {
-    "url": "https://github.com/atom/first-mate/issues"
+    "url": "https://github.com/Aerijo/first-mate-prebuilt/issues"
   },
   "license": "MIT",
-  "homepage": "http://atom.github.io/first-mate",
   "dependencies": {
     "emissary": "^1",
     "event-kit": "^2.2.0",
     "fs-plus": "^3.0.0",
     "grim": "^2.0.1",
-    "oniguruma": "7.2.1",
+    "oniguruma-prebuilt": "7.2.4",
     "season": "^6.0.2",
     "underscore-plus": "^1"
   },
