@@ -2,7 +2,7 @@ path = require 'path'
 
 _ = require 'underscore-plus'
 fs = require 'fs-plus'
-{OnigRegExp, OnigString} = require 'oniguruma'
+{OnigRegExp, OnigString} = require 'oniguruma-prebuilt'
 {Emitter} = require 'event-kit'
 Grim = require 'grim'
 
@@ -36,7 +36,7 @@ class Grammar
       @firstLineRegex = new OnigRegExp(firstLineMatch)
     else
       @firstLineRegex = null
-      
+
     if contentRegex
       @contentRegex = new OnigRegExp(contentRegex)
     else
